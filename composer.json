@@ -1,0 +1,26 @@
+{
+    "name": "crababy/swoolefm-app",
+    "authors": [
+        {
+            "name": "crababy",
+            "email": "727145108@qq.com"
+        }
+    ],
+    "require": {
+        "crababy/swoolefm": "dev-master",
+        "bupt1987/html-parser": "^3.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Application\\": "Application/",
+        "SwooleFm\\": "src/"
+      }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}

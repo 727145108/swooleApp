@@ -1,0 +1,10 @@
+ERROR|1053|07-12 09:34:45 0.79934800|Exception:fdsafdsaf in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 27
+ERROR|1058|07-12 09:35:07 0.91677400|Exception:fdsafdsaf in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 26
+ERROR|1064|07-12 09:37:52 0.58328900|Exception:fdsafdsaf in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 28
+ERROR|1074|07-12 09:39:50 0.70979800|Exception:fdsafdsaf in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
+ERROR|1084|07-12 09:40:29 0.07438400|Exception:fdsafdsaf in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 28
+ERROR|1623|07-12 15:48:59 0.46194400|Exception:null in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
+ERROR|1628|07-12 15:49:22 0.17502000|Exception:null in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
+ERROR|1634|07-12 15:51:32 0.17197000|Exception:[] in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
+ERROR|1653|07-12 15:57:41 0.95168600|Exception:[] in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 31
+ERROR|1683|07-12 16:11:39 0.26597100|Exception:[] in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 32

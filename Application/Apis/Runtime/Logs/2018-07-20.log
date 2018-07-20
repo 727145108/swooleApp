@@ -1,0 +1,135 @@
+ERROR|8562|07-20 10:07:50 0.20048200|Exception:Serialization of 'Closure' is not allowed in File: /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Task/TaskManager.php 19
+ERROR|8569|07-20 10:08:20 0.98651400|Exception:Serialization of 'Closure' is not allowed in File: /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Task/TaskManager.php 19
+ERROR|8581|07-20 10:11:00 0.74184600|Exception:null in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8581|07-20 10:11:01 0.76935600|Exception:null in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8581|07-20 10:11:03 0.41899200|Exception:null in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8586|07-20 10:11:33 0.18728800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8659|07-20 10:48:41 0.51864400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8720|07-20 10:55:50 0.82463300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8725|07-20 10:57:04 0.24389700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8731|07-20 11:00:01 0.53399100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8737|07-20 11:00:46 0.64575900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8745|07-20 11:02:48 0.53564500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8750|07-20 11:03:29 0.69015400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8756|07-20 11:05:49 0.82429000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8755|07-20 11:05:49 0.90348400|GuzzleHttp\Exception\ClientException: Client error: ` http://fund.eastmoney.com/` resulted in a `400 Bad Request` response:
+Your request has bad syntax or is inherently impossible to satisfy.
+ in /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(223): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(267): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(225): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/guzzle/src/Client.php(131): GuzzleHttp\Promise\Promise->wait()
+#10 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php(19): GuzzleHttp\Client->request(Array)
+#11 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Index->run()
+#12 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Index))
+#13 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/SwooleManager.php(35): Swoole\Http\Server->start()
+#14 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Application.php(62): SwooleFm\Core\SwooleManager->start()
+#15 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/function.php(180): SwooleFm\Core\Application->run()
+#16 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/function.php(93): serverStart(Array)
+#17 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/swoolefm.php(27): commandHandler()
+#18 {main}
+ERROR|8761|07-20 11:06:22 0.01060500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8772|07-20 11:08:00 0.18596200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8778|07-20 11:08:27 0.37925800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8783|07-20 11:08:46 0.23011400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8789|07-20 11:09:17 0.86009000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8794|07-20 11:09:59 0.31982000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8799|07-20 11:11:08 0.68543900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8805|07-20 11:12:12 0.31967200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8810|07-20 11:12:29 0.83994500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8815|07-20 11:13:19 0.82727200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8822|07-20 11:14:36 0.77853800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8828|07-20 11:14:48 0.86598000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8833|07-20 11:15:04 0.88672800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8838|07-20 11:15:22 0.38422400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8843|07-20 11:15:46 0.87011500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8849|07-20 11:16:24 0.63852700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8854|07-20 11:16:40 0.25874900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8859|07-20 11:16:55 0.20266700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8864|07-20 11:17:15 0.73189300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8869|07-20 11:18:17 0.44222500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8874|07-20 11:18:25 0.61718600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8880|07-20 11:18:38 0.30046000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8885|07-20 11:18:55 0.10723000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8890|07-20 11:19:06 0.62620000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8896|07-20 11:21:20 0.83621500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8902|07-20 11:22:05 0.99521500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8907|07-20 11:23:19 0.34525200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8916|07-20 11:25:34 0.97707000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8922|07-20 11:25:45 0.71978100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8931|07-20 11:27:58 0.52060800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8936|07-20 11:28:33 0.32891500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8942|07-20 11:29:11 0.24457100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8950|07-20 11:36:31 0.29218300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8957|07-20 11:36:58 0.08696700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8962|07-20 11:38:03 0.41396100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8968|07-20 11:38:39 0.86016500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8973|07-20 11:39:18 0.74734100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8989|07-20 11:46:14 0.42361600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8994|07-20 11:46:51 0.18550900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|8994|07-20 11:51:00 0.23966300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9000|07-20 11:51:34 0.43172700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9005|07-20 11:52:38 0.11193700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9011|07-20 11:52:49 0.24759100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9016|07-20 11:53:06 0.38289500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9023|07-20 11:54:16 0.66068800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9035|07-20 11:56:11 0.19136500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9040|07-20 11:56:29 0.94150700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9045|07-20 11:56:36 0.73883100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9050|07-20 11:56:55 0.21085500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9056|07-20 11:57:14 0.29337800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9062|07-20 11:57:40 0.18161200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9068|07-20 11:58:02 0.17592600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9073|07-20 12:00:05 0.45798800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9079|07-20 12:00:51 0.55976900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9085|07-20 12:01:00 0.76310500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9113|07-20 12:32:53 0.52331800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9118|07-20 12:33:11 0.23687800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9124|07-20 12:33:52 0.16441000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9130|07-20 12:34:50 0.55038400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9135|07-20 12:36:24 0.60970400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9140|07-20 12:36:50 0.34452200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9145|07-20 12:37:12 0.71753900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9152|07-20 12:38:18 0.91263100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9157|07-20 12:39:12 0.71440400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9162|07-20 12:39:46 0.91468100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9167|07-20 12:40:30 0.45209300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9172|07-20 12:40:44 0.80590000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9303|07-20 14:02:00 0.49142900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9308|07-20 14:02:15 0.60136600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9313|07-20 14:02:28 0.72287900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9318|07-20 14:03:00 0.60277500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9318|07-20 14:03:06 0.70436800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9323|07-20 14:03:10 0.92195600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9328|07-20 14:03:32 0.59090500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9333|07-20 14:03:47 0.24595400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9339|07-20 14:04:02 0.62534200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9345|07-20 14:04:39 0.66333300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9350|07-20 14:05:39 0.90194000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9355|07-20 14:05:47 0.22178000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9360|07-20 14:06:00 0.97229900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9374|07-20 14:13:12 0.37418100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9381|07-20 14:14:09 0.64818500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9386|07-20 14:16:43 0.53642100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9392|07-20 14:17:32 0.43893200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9408|07-20 14:21:29 0.62144100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9428|07-20 14:33:06 0.29331700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9443|07-20 14:40:53 0.28232800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9526|07-20 15:11:08 0.34549800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9532|07-20 15:11:24 0.29572500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9537|07-20 15:14:35 0.73003800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9552|07-20 15:20:23 0.39314500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9557|07-20 15:20:43 0.87472500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9562|07-20 15:20:50 0.39179300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9567|07-20 15:21:06 0.78802000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9572|07-20 15:21:17 0.98318000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9581|07-20 15:22:09 0.59577700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9586|07-20 15:22:33 0.45682700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
+ERROR|9591|07-20 15:23:09 0.15226900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 24
