@@ -27,7 +27,21 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
       $fund_code = $result->symbol;   //基金代码
       $fund_data = $result->clrq;     //成立日期
       $fund_type = $result->Type2Name;  //基金类型
-
+      $fund_manager = $result->ManagerName; //基金经理
+      $fund_admin = $result->glr;
+      $fund_deposit = $result->tgr;
+      $ssrq = $result->ssrq;  //上市日期
+      $xcr = $result->xcr; //续存期限
+      $ssdd = $result->ssdd; //上市地点
+      $jjfe = $result->jjfe; //基金份额 亿份
+      $jjltfe = $result->jjltfe; //流通份额 亿份
+      $jjferq = $result->jjferq; //基金份额日期
+      $jjgm = $result->jjgm;  //基金规模 亿元
+      $tzmb = $result->tzmb; // 投资目标
+      $tzfw = $result->tzfw; //投资范围
+      $bjjz = $result->bjjz; //基金比较基准
+      $fxsytz = $result->fxsytz;  //风险收益特征
+      $fpyz = $result->fpyz;  //收益分配原则
     } else {
       echo "获取数据信息失败\n";
     }
