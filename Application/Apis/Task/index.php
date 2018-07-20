@@ -22,7 +22,6 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
     $body = json_decode($body);
     if(isset($body->result->status->code) && $body->result->status->code == 0) {
       $result = $body->result->data;
-      print_r($result);
       $fund_name = $result->jjqc;      //jjqc=>基金全称 jjjc=>简称
       $fund_code = $result->symbol;   //基金代码
       $fund_data = $result->clrq;     //成立日期
