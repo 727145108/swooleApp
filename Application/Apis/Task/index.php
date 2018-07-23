@@ -10,6 +10,7 @@ namespace Application\Apis\Task;
 use GuzzleHttp\Client;
 use SwooleFm\Core\Event\Timer;
 use Application\Apis\Models\Fund;
+use SwooleFm\Core\Tool\Logger;
 use SwooleFm\Core\Task\TaskManager;
 
 class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
@@ -18,7 +19,6 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
     $_data = $this->getData();
     $bool = false;
     $symbol = 0;
-    print_r($_data);
     if(isset($_data['symbol'])) {
       $_data['symbol'] = intval($_data['symbol']) + 1;
       $symbol = str_pad($_data['symbol'], 6, '0', STR_PAD_LEFT);
@@ -46,6 +46,7 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
   public function finish() {
     $result = $this->getResult();
     if($result['status']) {
+      Logger::info("添加异步任务获取基金持仓数据");
       $stock = new \Application\Apis\Task\Stock();
       $stock->setData(['symbol' => $result['symbol']]);
       TaskManager::async($stock);
@@ -59,6 +60,8 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
 
   private function collMethod($symbol) {
     //获取基金名称 初始信息等
+
+    Logger::info('开始获取' . $symbol . '基金基本信息...');
     $client =  new Client([
       'base_uri' => 'http://stock.finance.sina.com.cn/',
       'timeout'  => 10.0,
@@ -73,7 +76,7 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
       $ssdd = $result->ssdd; //上市地点
 
       if(empty($result->symbol)) {
-        echo "基金代码:{$symbol} 获取数据信息失败\n";
+        Logger::info("基金代码:{$symbol} 获取数据信息失败\n");
         return false;
       }
       if(isset($result->ManagerName)) {
@@ -108,10 +111,10 @@ class Index extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
         'fxsytz'      => $result->fxsytz,  //风险收益特征
         'fpyz'        => $result->fpyz,  //收益分配原则
       ]);
-      echo "基金名称: {$result->jjqc}基金代码:{$result->symbol} 获取数据信息成功\n";
+      Logger::info("基金名称: {$result->jjqc}基金代码:{$result->symbol} 获取数据信息成功");
       return true;
     } else {
-      echo "基金代码:{$result->symbol} 获取数据信息失败\n";
+      Logger::info("基金代码:{$result->symbol} 获取数据信息失败");
       return false;
     }
   }

@@ -1,100 +1,321 @@
-ERROR|11615|07-23 14:52:39 0.30546400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11665|07-23 15:10:09 0.47474700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11672|07-23 15:10:49 0.27342700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11678|07-23 15:11:11 0.03916900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11683|07-23 15:12:54 0.68858000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11692|07-23 15:20:37 0.88195100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11812|07-23 15:23:21 0.65326200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11818|07-23 15:26:13 0.64217200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11824|07-23 15:27:31 0.00308600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 29
-ERROR|11829|07-23 15:28:20 0.45688200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11839|07-23 15:29:35 0.16930500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11844|07-23 15:30:04 0.11073500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11850|07-23 15:30:40 0.74944100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11856|07-23 15:31:37 0.69001600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11862|07-23 15:32:32 0.19128300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11867|07-23 15:32:52 0.35530700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11883|07-23 15:34:57 0.36295600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11889|07-23 15:35:22 0.89596900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11896|07-23 15:35:45 0.74856600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11901|07-23 15:36:10 0.53156100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11907|07-23 15:36:33 0.75701300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11912|07-23 15:36:45 0.21602300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|11917|07-23 15:38:21 0.18864200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11922|07-23 15:38:44 0.73115700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11928|07-23 15:40:16 0.16659300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11942|07-23 15:42:17 0.15096100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11947|07-23 15:42:28 0.10017900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11952|07-23 15:43:03 0.48288800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11968|07-23 15:53:36 0.41316000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11974|07-23 15:53:48 0.96064400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11980|07-23 15:55:12 0.11512000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11987|07-23 15:55:57 0.58836100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11992|07-23 15:56:20 0.30693700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|11998|07-23 15:56:54 0.83749400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12004|07-23 15:57:04 0.74630600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12010|07-23 15:58:58 0.90002400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12015|07-23 15:59:26 0.43017800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12021|07-23 16:01:17 0.43744400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12026|07-23 16:02:19 0.31293800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12031|07-23 16:03:07 0.56727900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12036|07-23 16:03:48 0.30357300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12041|07-23 16:04:00 0.21844500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12046|07-23 16:04:10 0.15483200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12057|07-23 16:06:01 0.05873300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12062|07-23 16:06:14 0.36248800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12067|07-23 16:06:56 0.39698500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12072|07-23 16:07:15 0.95862300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12072|07-23 16:07:24 0.75241800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12077|07-23 16:07:29 0.40321200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12083|07-23 16:08:19 0.91518100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12088|07-23 16:08:39 0.34978600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12093|07-23 16:08:46 0.89931300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12106|07-23 16:11:19 0.06203300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12111|07-23 16:11:49 0.59696700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12116|07-23 16:12:53 0.85717200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12122|07-23 16:14:39 0.24752000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12133|07-23 16:14:56 0.43957100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12138|07-23 16:15:53 0.04261500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12143|07-23 16:16:08 0.50224200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12148|07-23 16:16:26 0.44045300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12153|07-23 16:16:46 0.36069000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12158|07-23 16:17:01 0.22266000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12163|07-23 16:17:12 0.04667800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12169|07-23 16:17:33 0.09762800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12181|07-23 16:18:59 0.34910100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12186|07-23 16:19:10 0.02972600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12191|07-23 16:19:27 0.93455300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12196|07-23 16:19:41 0.37858200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12201|07-23 16:20:02 0.43844600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12206|07-23 16:20:18 0.73395200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12211|07-23 16:20:32 0.25706600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12217|07-23 16:23:46 0.65484200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12222|07-23 16:25:54 0.84014700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12228|07-23 16:26:16 0.99132600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12233|07-23 16:26:35 0.26502900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12238|07-23 16:26:50 0.35255900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12243|07-23 16:27:09 0.92534800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12248|07-23 16:28:08 0.01131400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12253|07-23 16:29:12 0.24951800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12258|07-23 16:29:22 0.38288900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12263|07-23 16:29:34 0.53972500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12270|07-23 16:31:13 0.14238100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12290|07-23 16:35:10 0.46303400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12296|07-23 16:36:35 0.32639600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12302|07-23 16:36:56 0.32889200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12308|07-23 16:37:10 0.77297900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12314|07-23 16:37:46 0.67270600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12319|07-23 16:38:02 0.30363500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12324|07-23 16:38:23 0.68784600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12330|07-23 16:39:51 0.54219000|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12338|07-23 16:46:20 0.17935800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12343|07-23 16:46:37 0.37426500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12349|07-23 16:47:06 0.95517200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12354|07-23 16:47:26 0.03699500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12359|07-23 16:48:56 0.35233600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12359|07-23 16:49:04 0.48747700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 30
-ERROR|12364|07-23 16:49:44 0.55939600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|12369|07-23 16:49:59 0.76682200|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|12374|07-23 16:50:41 0.46202600|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
-ERROR|12379|07-23 16:51:11 0.55297900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 25
+ERROR|12624|07-23 17:26:27 0.29028300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12620|07-23 17:26:27 0.29329900|开始获取040026基金基本信息...
+INFO|12620|07-23 17:26:27 0.44560400|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12624|07-23 17:26:27 0.44629600|添加异步任务获取基金持仓数据
+INFO|12621|07-23 17:26:27 0.47264500|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+INFO|12621|07-23 17:26:27 0.76330800|十大重仓持股比例获取完成
+INFO|12624|07-23 17:26:27 0.76803700|添加异步任务获取基金代码及最新价格数据
+INFO|12622|07-23 17:26:27 0.79682200|开始获取华安信用四季红债券型证券投资基金[040026] 持股代码及最新价格&&涨跌幅
+INFO|12622|07-23 17:26:27 0.93624700|持股代码及最新价格&&涨跌幅获取完成
+INFO|12623|07-23 17:26:32 0.44866000|开始获取040027基金基本信息...
+INFO|12623|07-23 17:26:33 0.53448800|基金代码:040027 获取数据信息失败
+
+INFO|12620|07-23 17:26:38 0.53675000|开始获取040028基金基本信息...
+INFO|12620|07-23 17:26:39 0.22230500|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040028 获取数据信息成功
+INFO|12624|07-23 17:26:39 0.22261000|添加异步任务获取基金持仓数据
+INFO|12621|07-23 17:26:39 0.22425500|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 十大重仓持股比例...
+INFO|12621|07-23 17:26:39 0.31080500|十大重仓持股比例获取完成
+INFO|12624|07-23 17:26:39 0.31341700|添加异步任务获取基金代码及最新价格数据
+INFO|12622|07-23 17:26:39 0.31487700|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 持股代码及最新价格&&涨跌幅
+INFO|12622|07-23 17:26:39 0.43598500|持股代码及最新价格&&涨跌幅获取完成
+INFO|12623|07-23 17:26:44 0.22700300|开始获取040029基金基本信息...
+INFO|12623|07-23 17:26:44 0.91850400|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040029 获取数据信息成功
+INFO|12624|07-23 17:26:44 0.91881100|添加异步任务获取基金持仓数据
+INFO|12620|07-23 17:26:44 0.92044100|开始获取华安月月鑫短期理财债券型证券投资基金[040029] 十大重仓持股比例...
+INFO|12620|07-23 17:26:44 0.98082300|十大重仓持股比例获取完成
+INFO|12624|07-23 17:26:44 0.98307600|添加异步任务获取基金代码及最新价格数据
+INFO|12621|07-23 17:26:44 0.98465700|开始获取华安月月鑫短期理财债券型证券投资基金[040029] 持股代码及最新价格&&涨跌幅
+INFO|12621|07-23 17:26:45 0.19020400|持股代码及最新价格&&涨跌幅获取完成
+INFO|12628|07-23 17:27:16 0.61684700|开始获取040026基金基本信息...
+ERROR|12632|07-23 17:27:16 0.61694500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12628|07-23 17:27:16 0.77002200|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12632|07-23 17:27:16 0.77134900|添加异步任务获取基金持仓数据
+INFO|12629|07-23 17:27:16 0.79957100|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+INFO|12629|07-23 17:27:17 0.07685400|十大重仓持股比例获取完成
+INFO|12632|07-23 17:27:17 0.07995200|添加异步任务获取基金代码及最新价格数据
+INFO|12630|07-23 17:27:17 0.11718300|开始获取华安信用四季红债券型证券投资基金[040026] 持股代码及最新价格&&涨跌幅
+INFO|12630|07-23 17:27:17 0.22669000|持股代码及最新价格&&涨跌幅获取完成
+ERROR|12640|07-23 17:27:34 0.89633700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12636|07-23 17:27:34 0.90686300|开始获取040025基金基本信息...
+INFO|12636|07-23 17:27:35 0.12304800|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12640|07-23 17:27:35 0.12379200|添加异步任务获取基金持仓数据
+INFO|12637|07-23 17:27:35 0.14856400|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12637|07-23 17:27:35 0.34334600|十大重仓持股比例获取完成
+INFO|12640|07-23 17:27:35 0.34739900|添加异步任务获取基金代码及最新价格数据
+INFO|12638|07-23 17:27:35 0.37267000|开始获取华安科技动力混合型证券投资基金[040025] 持股代码及最新价格&&涨跌幅
+INFO|12638|07-23 17:27:35 0.63251600|持股代码及最新价格&&涨跌幅获取完成
+ERROR|12650|07-23 17:29:24 0.48920700|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12646|07-23 17:29:24 0.49138000|开始获取040025基金基本信息...
+INFO|12646|07-23 17:29:25 0.63345000|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12650|07-23 17:29:25 0.63434400|添加异步任务获取基金持仓数据
+INFO|12647|07-23 17:29:25 0.65669600|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12647|07-23 17:29:25 0.72496200|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:25 0.72805500|添加异步任务获取基金代码及最新价格数据
+INFO|12648|07-23 17:29:25 0.74992900|开始获取华安科技动力混合型证券投资基金[040025] 持股代码及最新价格&&涨跌幅
+INFO|12648|07-23 17:29:25 0.97718800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12649|07-23 17:29:30 0.63721400|开始获取040026基金基本信息...
+INFO|12649|07-23 17:29:30 0.73819000|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12650|07-23 17:29:30 0.73884300|添加异步任务获取基金持仓数据
+INFO|12646|07-23 17:29:30 0.74041700|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+INFO|12646|07-23 17:29:32 0.79837200|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:32 0.80151300|添加异步任务获取基金代码及最新价格数据
+INFO|12647|07-23 17:29:32 0.80324900|开始获取华安信用四季红债券型证券投资基金[040026] 持股代码及最新价格&&涨跌幅
+INFO|12647|07-23 17:29:33 0.07344300|华安信用四季红债券型证券投资基金[040026]此基金无持仓数据
+INFO|12647|07-23 17:29:33 0.07358200|持股代码及最新价格&&涨跌幅获取完成
+INFO|12648|07-23 17:29:35 0.73910300|开始获取040027基金基本信息...
+INFO|12648|07-23 17:29:35 0.83753600|基金代码:040027 获取数据信息失败
+
+INFO|12649|07-23 17:29:40 0.83769300|开始获取040028基金基本信息...
+INFO|12649|07-23 17:29:40 0.96238000|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040028 获取数据信息成功
+INFO|12650|07-23 17:29:40 0.96264300|添加异步任务获取基金持仓数据
+INFO|12646|07-23 17:29:40 0.96388200|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 十大重仓持股比例...
+INFO|12646|07-23 17:29:41 0.09311600|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:41 0.09551800|添加异步任务获取基金代码及最新价格数据
+INFO|12647|07-23 17:29:41 0.09694800|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 持股代码及最新价格&&涨跌幅
+INFO|12647|07-23 17:29:41 0.24297700|华安月月鑫短期理财债券型证券投资基金[040028]此基金无持仓数据
+INFO|12647|07-23 17:29:41 0.24313000|持股代码及最新价格&&涨跌幅获取完成
+INFO|12648|07-23 17:29:45 0.96271200|开始获取040029基金基本信息...
+INFO|12648|07-23 17:29:46 0.06438000|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040029 获取数据信息成功
+INFO|12650|07-23 17:29:46 0.06473700|添加异步任务获取基金持仓数据
+INFO|12649|07-23 17:29:46 0.06645600|开始获取华安月月鑫短期理财债券型证券投资基金[040029] 十大重仓持股比例...
+INFO|12649|07-23 17:29:46 0.29623900|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:46 0.29841200|添加异步任务获取基金代码及最新价格数据
+INFO|12646|07-23 17:29:46 0.29982100|开始获取华安月月鑫短期理财债券型证券投资基金[040029] 持股代码及最新价格&&涨跌幅
+INFO|12646|07-23 17:29:46 0.45040700|华安月月鑫短期理财债券型证券投资基金[040029]此基金无持仓数据
+INFO|12646|07-23 17:29:46 0.45053800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12647|07-23 17:29:51 0.06518600|开始获取040030基金基本信息...
+INFO|12647|07-23 17:29:51 0.73424900|基金名称: 华安季季鑫短期理财债券型证券投资基金基金代码:040030 获取数据信息成功
+INFO|12650|07-23 17:29:51 0.73451900|添加异步任务获取基金持仓数据
+INFO|12648|07-23 17:29:51 0.73652900|开始获取华安季季鑫短期理财债券型证券投资基金[040030] 十大重仓持股比例...
+INFO|12648|07-23 17:29:52 0.28823900|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:52 0.29066000|添加异步任务获取基金代码及最新价格数据
+INFO|12649|07-23 17:29:52 0.29209700|开始获取华安季季鑫短期理财债券型证券投资基金[040030] 持股代码及最新价格&&涨跌幅
+INFO|12649|07-23 17:29:52 0.46772600|华安季季鑫短期理财债券型证券投资基金[040030]此基金无持仓数据
+INFO|12649|07-23 17:29:52 0.46782300|持股代码及最新价格&&涨跌幅获取完成
+INFO|12646|07-23 17:29:56 0.73469600|开始获取040031基金基本信息...
+INFO|12646|07-23 17:29:57 0.05856900|基金名称: 华安季季鑫短期理财债券型证券投资基金基金代码:040031 获取数据信息成功
+INFO|12650|07-23 17:29:57 0.05886400|添加异步任务获取基金持仓数据
+INFO|12647|07-23 17:29:57 0.06195200|开始获取华安季季鑫短期理财债券型证券投资基金[040031] 十大重仓持股比例...
+INFO|12647|07-23 17:29:57 0.33951400|十大重仓持股比例获取完成
+INFO|12650|07-23 17:29:57 0.34196900|添加异步任务获取基金代码及最新价格数据
+INFO|12648|07-23 17:29:57 0.34340000|开始获取华安季季鑫短期理财债券型证券投资基金[040031] 持股代码及最新价格&&涨跌幅
+INFO|12648|07-23 17:29:57 0.55828400|华安季季鑫短期理财债券型证券投资基金[040031]此基金无持仓数据
+INFO|12648|07-23 17:29:57 0.55842400|持股代码及最新价格&&涨跌幅获取完成
+INFO|12649|07-23 17:30:02 0.05870000|开始获取040032基金基本信息...
+INFO|12649|07-23 17:30:02 0.12627300|基金代码:040032 获取数据信息失败
+
+INFO|12646|07-23 17:30:07 0.12569200|开始获取040033基金基本信息...
+INFO|12646|07-23 17:30:07 0.35217700|基金名称: 华安月安鑫短期理财债券型证券投资基金基金代码:040033 获取数据信息成功
+INFO|12650|07-23 17:30:07 0.35244600|添加异步任务获取基金持仓数据
+INFO|12647|07-23 17:30:07 0.35379800|开始获取华安月安鑫短期理财债券型证券投资基金[040033] 十大重仓持股比例...
+INFO|12647|07-23 17:30:08 0.88621100|十大重仓持股比例获取完成
+INFO|12650|07-23 17:30:08 0.88891300|添加异步任务获取基金代码及最新价格数据
+INFO|12648|07-23 17:30:08 0.89028800|开始获取华安月安鑫短期理财债券型证券投资基金[040033] 持股代码及最新价格&&涨跌幅
+INFO|12648|07-23 17:30:09 0.39974400|华安月安鑫短期理财债券型证券投资基金[040033]此基金无持仓数据
+INFO|12648|07-23 17:30:09 0.39989300|持股代码及最新价格&&涨跌幅获取完成
+ERROR|12667|07-23 17:32:29 0.14374100|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12663|07-23 17:32:29 0.14804600|开始获取040025基金基本信息...
+INFO|12663|07-23 17:32:29 0.37745000|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12667|07-23 17:32:29 0.37823500|添加异步任务获取基金持仓数据
+INFO|12664|07-23 17:32:29 0.40172400|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12665|07-23 17:32:34 0.38331400|开始获取040026基金基本信息...
+INFO|12665|07-23 17:32:34 0.49630600|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12667|07-23 17:32:34 0.49698500|添加异步任务获取基金持仓数据
+INFO|12666|07-23 17:32:34 0.52220100|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+ERROR|12678|07-23 17:33:01 0.04644300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12674|07-23 17:33:01 0.05125400|开始获取040025基金基本信息...
+INFO|12674|07-23 17:33:01 0.20507800|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12678|07-23 17:33:01 0.20586000|添加异步任务获取基金持仓数据
+INFO|12675|07-23 17:33:01 0.23001200|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12676|07-23 17:33:06 0.20980800|开始获取040026基金基本信息...
+INFO|12676|07-23 17:33:06 0.33007600|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12678|07-23 17:33:06 0.33102100|添加异步任务获取基金持仓数据
+INFO|12677|07-23 17:33:06 0.35885900|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+ERROR|12688|07-23 17:33:22 0.04194900|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12684|07-23 17:33:22 0.04722200|开始获取040025基金基本信息...
+INFO|12684|07-23 17:33:22 0.27341600|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12688|07-23 17:33:22 0.27421700|添加异步任务获取基金持仓数据
+INFO|12685|07-23 17:33:22 0.29692200|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12685|07-23 17:33:22 0.57129500|十大重仓持股比例获取完成
+INFO|12688|07-23 17:33:22 0.57444300|添加异步任务获取基金代码及最新价格数据
+INFO|12686|07-23 17:33:22 0.60779200|开始获取华安科技动力混合型证券投资基金[040025] 持股代码及最新价格&&涨跌幅
+INFO|12686|07-23 17:33:22 0.95342800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12687|07-23 17:33:27 0.27874500|开始获取040026基金基本信息...
+INFO|12687|07-23 17:33:27 0.39674600|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12688|07-23 17:33:27 0.39762800|添加异步任务获取基金持仓数据
+INFO|12684|07-23 17:33:27 0.39937600|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+INFO|12684|07-23 17:33:27 0.43588600|十大重仓持股比例获取完成
+INFO|12688|07-23 17:33:27 0.43862500|添加异步任务获取基金代码及最新价格数据
+INFO|12685|07-23 17:33:27 0.44036300|开始获取华安信用四季红债券型证券投资基金[040026] 持股代码及最新价格&&涨跌幅
+INFO|12685|07-23 17:33:27 0.58358600|华安信用四季红债券型证券投资基金[040026]此基金无持仓数据
+INFO|12685|07-23 17:33:27 0.58371800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12686|07-23 17:33:32 0.39797800|开始获取040027基金基本信息...
+INFO|12686|07-23 17:33:32 0.70740900|基金代码:040027 获取数据信息失败
+
+INFO|12687|07-23 17:33:37 0.70716000|开始获取040028基金基本信息...
+INFO|12687|07-23 17:33:37 0.81729600|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040028 获取数据信息成功
+INFO|12688|07-23 17:33:37 0.81760900|添加异步任务获取基金持仓数据
+INFO|12684|07-23 17:33:37 0.81891300|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 十大重仓持股比例...
+INFO|12684|07-23 17:33:37 0.86926900|十大重仓持股比例获取完成
+INFO|12688|07-23 17:33:37 0.87301500|添加异步任务获取基金代码及最新价格数据
+INFO|12685|07-23 17:33:37 0.87478800|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 持股代码及最新价格&&涨跌幅
+INFO|12685|07-23 17:33:38 0.03431600|华安月月鑫短期理财债券型证券投资基金[040028]此基金无持仓数据
+INFO|12685|07-23 17:33:38 0.03445500|持股代码及最新价格&&涨跌幅获取完成
+ERROR|12704|07-23 17:35:30 0.37043800|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12700|07-23 17:35:30 0.37568800|开始获取040025基金基本信息...
+INFO|12700|07-23 17:35:30 0.57996400|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12704|07-23 17:35:30 0.58086000|添加异步任务获取基金持仓数据
+INFO|12701|07-23 17:35:30 0.60617300|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12701|07-23 17:35:30 0.67611200|十大重仓持股比例获取完成
+INFO|12704|07-23 17:35:30 0.67961800|添加异步任务获取基金代码及最新价格数据
+INFO|12702|07-23 17:35:30 0.70630900|开始获取华安科技动力混合型证券投资基金[040025] 持股代码及最新价格&&涨跌幅
+INFO|12702|07-23 17:35:30 0.96825800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12703|07-23 17:35:35 0.58329000|开始获取040026基金基本信息...
+INFO|12703|07-23 17:35:35 0.68400800|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12704|07-23 17:35:35 0.68466600|添加异步任务获取基金持仓数据
+INFO|12700|07-23 17:35:35 0.68619800|开始获取华安信用四季红债券型证券投资基金[040026] 十大重仓持股比例...
+INFO|12700|07-23 17:35:35 0.91704200|十大重仓持股比例获取完成
+INFO|12704|07-23 17:35:35 0.91968700|添加异步任务获取基金代码及最新价格数据
+INFO|12701|07-23 17:35:35 0.92125500|开始获取华安信用四季红债券型证券投资基金[040026] 持股代码及最新价格&&涨跌幅
+INFO|12701|07-23 17:35:36 0.12769800|华安信用四季红债券型证券投资基金[040026]此基金无持仓数据
+INFO|12701|07-23 17:35:36 0.12781700|持股代码及最新价格&&涨跌幅获取完成
+INFO|12702|07-23 17:35:40 0.68449800|开始获取040027基金基本信息...
+INFO|12702|07-23 17:35:40 0.75584200|基金代码:040027 获取数据信息失败
+
+INFO|12703|07-23 17:35:45 0.75761400|开始获取040028基金基本信息...
+INFO|12703|07-23 17:35:46 0.03926800|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040028 获取数据信息成功
+INFO|12704|07-23 17:35:46 0.03961700|添加异步任务获取基金持仓数据
+INFO|12700|07-23 17:35:46 0.04144100|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 十大重仓持股比例...
+INFO|12700|07-23 17:35:46 0.33764300|十大重仓持股比例获取完成
+INFO|12704|07-23 17:35:46 0.34107300|添加异步任务获取基金代码及最新价格数据
+INFO|12701|07-23 17:35:46 0.34438500|开始获取华安月月鑫短期理财债券型证券投资基金[040028] 持股代码及最新价格&&涨跌幅
+INFO|12701|07-23 17:35:46 0.51474100|华安月月鑫短期理财债券型证券投资基金[040028]此基金无持仓数据
+INFO|12701|07-23 17:35:46 0.51487400|持股代码及最新价格&&涨跌幅获取完成
+ERROR|12713|07-23 17:37:46 0.44820400|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12709|07-23 17:37:46 0.45396000|开始获取040025基金基本信息...
+INFO|12709|07-23 17:37:47 0.24294600|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12713|07-23 17:37:47 0.24373400|添加异步任务获取基金持仓数据
+ERROR|12722|07-23 17:38:22 0.25837500|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12718|07-23 17:38:22 0.26868200|开始获取040025基金基本信息...
+INFO|12718|07-23 17:38:22 0.44373100|基金名称: 华安科技动力混合型证券投资基金基金代码:040025 获取数据信息成功
+INFO|12722|07-23 17:38:22 0.44457900|添加异步任务获取基金持仓数据
+INFO|12719|07-23 17:38:22 0.47131200|开始获取华安科技动力混合型证券投资基金[040025] 十大重仓持股比例...
+INFO|12719|07-23 17:38:22 0.64823600|十大重仓持股比例获取完成
+INFO|12722|07-23 17:38:22 0.65304800|添加异步任务获取基金代码及最新价格数据
+INFO|12720|07-23 17:38:22 0.70326900|开始获取华安科技动力混合型证券投资基金[040025] 持股代码及最新价格&&涨跌幅
+INFO|12720|07-23 17:38:23 0.00439700|持股代码及最新价格&&涨跌幅获取完成
+INFO|12721|07-23 17:38:27 0.44686600|开始获取040026基金基本信息...
+INFO|12721|07-23 17:38:27 0.55356500|基金名称: 华安信用四季红债券型证券投资基金基金代码:040026 获取数据信息成功
+INFO|12722|07-23 17:38:27 0.55425500|添加异步任务获取基金持仓数据
+INFO|12718|07-23 17:38:27 0.55586500|十大重仓持股比例获取完成
+INFO|12719|07-23 17:38:32 0.55422000|开始获取040027基金基本信息...
+INFO|12719|07-23 17:38:32 0.62577400|基金代码:040027 获取数据信息失败
+
+INFO|12720|07-23 17:38:37 0.62724100|开始获取040028基金基本信息...
+INFO|12720|07-23 17:38:37 0.76064700|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040028 获取数据信息成功
+INFO|12722|07-23 17:38:37 0.76102400|添加异步任务获取基金持仓数据
+INFO|12721|07-23 17:38:37 0.76269300|十大重仓持股比例获取完成
+INFO|12718|07-23 17:38:42 0.76075600|开始获取040029基金基本信息...
+INFO|12718|07-23 17:38:42 0.89926500|基金名称: 华安月月鑫短期理财债券型证券投资基金基金代码:040029 获取数据信息成功
+INFO|12722|07-23 17:38:42 0.89988900|添加异步任务获取基金持仓数据
+INFO|12719|07-23 17:38:42 0.90162500|十大重仓持股比例获取完成
+INFO|12720|07-23 17:38:47 0.89976700|开始获取040030基金基本信息...
+INFO|12720|07-23 17:38:48 0.03326700|基金名称: 华安季季鑫短期理财债券型证券投资基金基金代码:040030 获取数据信息成功
+INFO|12722|07-23 17:38:48 0.03370000|添加异步任务获取基金持仓数据
+INFO|12721|07-23 17:38:48 0.03566300|十大重仓持股比例获取完成
+INFO|12718|07-23 17:38:53 0.03374800|开始获取040031基金基本信息...
+INFO|12718|07-23 17:38:53 0.15150400|基金名称: 华安季季鑫短期理财债券型证券投资基金基金代码:040031 获取数据信息成功
+INFO|12722|07-23 17:38:53 0.15195500|添加异步任务获取基金持仓数据
+INFO|12719|07-23 17:38:53 0.15399700|十大重仓持股比例获取完成
+ERROR|12738|07-23 17:39:12 0.52794300|Exception:1231 in File: /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php 37
+INFO|12734|07-23 17:39:12 0.53475500|开始获取000002基金基本信息...
+INFO|12734|07-23 17:39:13 0.29762700|基金代码:000002 获取数据信息失败
+
+INFO|12735|07-23 17:39:18 0.30298700|开始获取000003基金基本信息...
+INFO|12735|07-23 17:39:18 0.50152300|基金名称: 中海可转换债券债券型证券投资基金基金代码:000003 获取数据信息成功
+INFO|12738|07-23 17:39:18 0.50298200|添加异步任务获取基金持仓数据
+INFO|12736|07-23 17:39:18 0.52118300|十大重仓持股比例获取完成
+INFO|12737|07-23 17:39:23 0.51500400|开始获取000004基金基本信息...
+INFO|12737|07-23 17:39:23 0.65048900|基金名称: 中海可转换债券债券型证券投资基金基金代码:000004 获取数据信息成功
+INFO|12738|07-23 17:39:23 0.65111600|添加异步任务获取基金持仓数据
+INFO|12734|07-23 17:39:23 0.66647100|十大重仓持股比例获取完成
+INFO|12735|07-23 17:39:28 0.65090300|开始获取000005基金基本信息...
+INFO|12735|07-23 17:39:28 0.81192800|基金名称: 嘉实增强信用定期开放债券型证券投资基金基金代码:000005 获取数据信息成功
+INFO|12738|07-23 17:39:28 0.81219200|添加异步任务获取基金持仓数据
+INFO|12736|07-23 17:39:28 0.81322300|十大重仓持股比例获取完成
+INFO|12737|07-23 17:39:33 0.81195300|开始获取000006基金基本信息...
+INFO|12737|07-23 17:39:33 0.98702400|基金代码:000006 获取数据信息失败
+
+INFO|12734|07-23 17:39:38 0.98894700|开始获取000007基金基本信息...
+INFO|12734|07-23 17:39:39 0.41428300|基金名称: 鹏华国有企业债债券型证券投资基金基金代码:000007 获取数据信息成功
+INFO|12738|07-23 17:39:39 0.41460300|添加异步任务获取基金持仓数据
+INFO|12735|07-23 17:39:39 0.41642300|十大重仓持股比例获取完成
+INFO|12736|07-23 17:39:44 0.41438600|开始获取000008基金基本信息...
+INFO|12736|07-23 17:39:45 0.86296200|基金名称: 嘉实中证500交易型开放式指数证券投资基金联接基金基金代码:000008 获取数据信息成功
+INFO|12738|07-23 17:39:45 0.86330800|添加异步任务获取基金持仓数据
+INFO|12737|07-23 17:39:45 0.86495000|开始获取嘉实中证500交易型开放式指数证券投资基金联接基金[000008] 十大重仓持股比例...
+INFO|12737|07-23 17:39:46 0.12184900|十大重仓持股比例获取完成
+INFO|12738|07-23 17:39:46 0.12448900|添加异步任务获取基金代码及最新价格数据
+INFO|12734|07-23 17:39:46 0.12636300|开始获取嘉实中证500交易型开放式指数证券投资基金联接基金[000008] 持股代码及最新价格&&涨跌幅
+INFO|12734|07-23 17:39:46 0.39345300|持股代码及最新价格&&涨跌幅获取完成
+INFO|12735|07-23 17:39:50 0.86295700|开始获取000009基金基本信息...
+INFO|12735|07-23 17:39:58 0.45432000|基金名称: 易方达天天理财货币市场基金基金代码:000009 获取数据信息成功
+INFO|12738|07-23 17:39:58 0.45460800|添加异步任务获取基金持仓数据
+INFO|12736|07-23 17:39:58 0.45562500|开始获取易方达天天理财货币市场基金[000009] 十大重仓持股比例...
+INFO|12736|07-23 17:39:58 0.70089600|十大重仓持股比例获取完成
+INFO|12738|07-23 17:39:58 0.70321300|添加异步任务获取基金代码及最新价格数据
+INFO|12737|07-23 17:39:58 0.70458500|开始获取易方达天天理财货币市场基金[000009] 持股代码及最新价格&&涨跌幅
+INFO|12737|07-23 17:39:58 0.90553100|易方达天天理财货币市场基金[000009]此基金无持仓数据
+INFO|12737|07-23 17:39:58 0.90564100|持股代码及最新价格&&涨跌幅获取完成
+INFO|12734|07-23 17:40:03 0.45470500|开始获取000010基金基本信息...
+INFO|12734|07-23 17:40:04 0.60799000|基金名称: 易方达天天理财货币市场基金基金代码:000010 获取数据信息成功
+INFO|12738|07-23 17:40:04 0.60829400|添加异步任务获取基金持仓数据
+INFO|12735|07-23 17:40:04 0.60953700|开始获取易方达天天理财货币市场基金[000010] 十大重仓持股比例...
+INFO|12735|07-23 17:40:04 0.84469900|十大重仓持股比例获取完成
+INFO|12738|07-23 17:40:04 0.84826600|添加异步任务获取基金代码及最新价格数据
+INFO|12736|07-23 17:40:04 0.85019600|开始获取易方达天天理财货币市场基金[000010] 持股代码及最新价格&&涨跌幅
+INFO|12736|07-23 17:40:05 0.07770000|易方达天天理财货币市场基金[000010]此基金无持仓数据
+INFO|12736|07-23 17:40:05 0.07781400|持股代码及最新价格&&涨跌幅获取完成
+INFO|12737|07-23 17:40:09 0.60791100|开始获取000011基金基本信息...
+INFO|12737|07-23 17:40:09 0.78297300|基金名称: 华夏大盘精选证券投资基金基金代码:000011 获取数据信息成功
+INFO|12738|07-23 17:40:09 0.78323800|添加异步任务获取基金持仓数据
+INFO|12734|07-23 17:40:09 0.78406600|开始获取华夏大盘精选证券投资基金[000011] 十大重仓持股比例...
+INFO|12734|07-23 17:40:09 0.94164200|十大重仓持股比例获取完成
+INFO|12738|07-23 17:40:09 0.94726000|添加异步任务获取基金代码及最新价格数据
+INFO|12735|07-23 17:40:09 0.94863600|开始获取华夏大盘精选证券投资基金[000011] 持股代码及最新价格&&涨跌幅
+INFO|12735|07-23 17:40:10 0.23777900|持股代码及最新价格&&涨跌幅获取完成
+INFO|12736|07-23 17:40:14 0.78289800|开始获取000012基金基本信息...
+INFO|12736|07-23 17:40:14 0.89563600|基金代码:000012 获取数据信息失败
+
+INFO|12737|07-23 17:40:19 0.89741500|开始获取000013基金基本信息...
+INFO|12737|07-23 17:40:20 0.02150700|基金名称: 易方达天天理财货币市场基金基金代码:000013 获取数据信息成功
+INFO|12738|07-23 17:40:20 0.02175000|添加异步任务获取基金持仓数据
+INFO|12734|07-23 17:40:20 0.02272000|开始获取易方达天天理财货币市场基金[000013] 十大重仓持股比例...
+INFO|12734|07-23 17:40:20 0.21920600|十大重仓持股比例获取完成
+INFO|12738|07-23 17:40:20 0.22154100|添加异步任务获取基金代码及最新价格数据
+INFO|12735|07-23 17:40:20 0.22261200|开始获取易方达天天理财货币市场基金[000013] 持股代码及最新价格&&涨跌幅
+INFO|12735|07-23 17:40:20 0.42405000|易方达天天理财货币市场基金[000013]此基金无持仓数据
+INFO|12735|07-23 17:40:20 0.42418400|持股代码及最新价格&&涨跌幅获取完成
+INFO|12736|07-23 17:40:25 0.02189400|开始获取000014基金基本信息...
+INFO|12736|07-23 17:40:25 0.16229600|基金名称: 华夏聚利债券型证券投资基金基金代码:000014 获取数据信息成功
+INFO|12738|07-23 17:40:25 0.16257100|添加异步任务获取基金持仓数据
+INFO|12737|07-23 17:40:25 0.16356500|十大重仓持股比例获取完成
+INFO|12734|07-23 17:40:30 0.16189200|开始获取000015基金基本信息...
+INFO|12734|07-23 17:40:30 0.91470700|基金名称: 华夏纯债债券型证券投资基金基金代码:000015 获取数据信息成功
+INFO|12738|07-23 17:40:30 0.91497600|添加异步任务获取基金持仓数据
+INFO|12735|07-23 17:40:30 0.91596800|十大重仓持股比例获取完成
+INFO|12736|07-23 17:40:35 0.91491700|开始获取000016基金基本信息...
+INFO|12736|07-23 17:40:37 0.05913400|基金名称: 华夏纯债债券型证券投资基金基金代码:000016 获取数据信息成功
+INFO|12738|07-23 17:40:37 0.05941900|添加异步任务获取基金持仓数据
+INFO|12737|07-23 17:40:37 0.06051800|十大重仓持股比例获取完成
+INFO|12734|07-23 17:40:42 0.05888400|开始获取000017基金基本信息...
+INFO|12734|07-23 17:40:42 0.28207600|基金名称: 财通可持续发展主题混合型证券投资基金基金代码:000017 获取数据信息成功
+INFO|12738|07-23 17:40:42 0.28234700|添加异步任务获取基金持仓数据
+INFO|12735|07-23 17:40:42 0.28366300|开始获取财通可持续发展主题混合型证券投资基金[000017] 十大重仓持股比例...
+INFO|12735|07-23 17:40:43 0.23102100|十大重仓持股比例获取完成
+INFO|12738|07-23 17:40:43 0.23440400|添加异步任务获取基金代码及最新价格数据
+INFO|12736|07-23 17:40:43 0.23578200|开始获取财通可持续发展主题混合型证券投资基金[000017] 持股代码及最新价格&&涨跌幅
+INFO|12736|07-23 17:40:43 0.55755800|持股代码及最新价格&&涨跌幅获取完成
+INFO|12737|07-23 17:40:47 0.28188400|开始获取000018基金基本信息...
+INFO|12737|07-23 17:40:47 0.42514700|基金代码:000018 获取数据信息失败
+

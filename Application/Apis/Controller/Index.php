@@ -20,8 +20,20 @@ class Index extends Controller {
 
   public function index() {
     $task = new \Application\Apis\Task\Index();
-    $task->setData(['symbol' => '040024']);
+    $task->setData(['symbol' => '000001']);
     TaskManager::async($task);
+
+    /*
+
+    $stock = new \Application\Apis\Task\SharesList();
+    $stock->setData(['symbol' => '040025']);
+    TaskManager::async($stock);
+
+    $stock = new \Application\Apis\Task\Stock();
+    $stock->setData(['symbol' => '040025']);
+    TaskManager::async($stock);
+
+    */
     throw new \Exception('1231', 2006);
   }
 }

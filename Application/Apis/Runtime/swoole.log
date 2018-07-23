@@ -10033,3 +10033,26 @@ Stack trace:
 #1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
 #2 /Users/crababy/sourc
 [2018-07-23 16:37:10 $12306.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 17:15:16 *12578.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Application\Apis\Task\TaskManager' not found in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:77
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(130): Application\Apis\Task\Stock->finish()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onFinish(Object(Swoole\Http\Server), 0, Object(Application\Apis\Task\Stock))
+#2 {main}
+  thrown in
+[2018-07-23 17:15:16 $12576.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-23 17:32:29 $12662.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-07-23 17:32:34 $12662.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-23 17:33:01 ^12675.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:40
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 1, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/sourc
+[2018-07-23 17:33:01 $12673.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-07-23 17:33:06 ^12677.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:40
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 3, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/sourc
+[2018-07-23 17:33:06 $12673.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-07-23 17:37:47 *12713.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Exception thrown without a stack frame in Unknown on line 0.
+[2018-07-23 17:37:47 $12708.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0

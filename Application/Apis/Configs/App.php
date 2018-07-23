@@ -15,7 +15,7 @@ return array(
     'SOCK_TYPE'     => SWOOLE_SOCK_TCP,
     'RUN_MODEL'     => SWOOLE_PROCESS,  //单线程模式:SWOOLE_BASE   进程模式:SWOOLE_PROCESS
     'OPTIONS'       => array(
-      'task_worker_num'   => 1,
+      'task_worker_num'   => 4,
       'task_max_request'  => 1000,
       'max_request'       => 0,
       'worker_num'        => 2,
