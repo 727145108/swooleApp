@@ -11,7 +11,7 @@ use SwooleFm\Core\AbstractInterface\EventInterface;
 use SwooleFm\Core\Http\Response;
 use SwooleFm\Core\Event\Event;
 use SwooleFm\Config\Config;
-use SwooleFm\Db\Mysql;
+use Illuminate\Database\Capsule\Manager as Db;
 
 class CustomerEvent implements EventInterface {
 
@@ -21,16 +21,18 @@ class CustomerEvent implements EventInterface {
   }
 
   public static function _init() : void {
-    //初始化db redis 等
-    echo 'this is Customer Event _init' . PHP_EOL;
+    // 初始化数据库
+    $dbConf = Config::getConf('Db.master');
+    $Db = new Db;
+    // 创建链接
+    $Db->addConnection($dbConf);
+    // 设置全局静态可访问
+    $Db->setAsGlobal();
+    // 启动Eloquent
+    $Db->bootEloquent();
   }
 
   public static function _onWorkerStart(\swoole_server $server, $worker_id) : void {
-    if($server->taskworker) {
-      echo "this is Task Worker \n";
-    } else {
-      Mysql::getInstance(Config::getConf('Db.master'));
-    }
   }
 
   public static function beforRequest(\swoole_http_request $request, \swoole_http_response $response) : void {

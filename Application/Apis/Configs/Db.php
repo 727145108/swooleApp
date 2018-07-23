@@ -7,12 +7,14 @@
 
 return array(
   'master'  => array(
+    'driver'    => 'mysql',
     'host'      => '127.0.0.1',
     'port'      => 3306,
-    'user'      => 'root',
+    'username'  => 'root',
     'password'  => '',
-    'database'  => 'crababy',
+    'database'  => 'crababy_fund',
     'charset'   => 'utf8mb4', //指定字符集
-    'timeout'   => 2
+    'timeout'   => 2,
+    'prefix'    => ''
   )
 );

@@ -10,7 +10,7 @@ namespace Application\Apis\Controller;
 use SwooleFm\Core\Http\AbstractInterface\Controller;
 use SwooleFm\Core\Task\TaskManager;
 use SwooleFm\Core\Event\Timer;
-use SwooleFm\Db\Mysql;
+use GuzzleHttp\Client;
 
 /**
  * index
@@ -20,6 +20,7 @@ class Index extends Controller {
 
   public function index() {
     $task = new \Application\Apis\Task\Index();
+    $task->setData(['symbol' => '040024']);
     TaskManager::async($task);
     throw new \Exception('1231', 2006);
   }

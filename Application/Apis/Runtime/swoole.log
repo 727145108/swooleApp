@@ -9877,3 +9877,159 @@ Stack trace:
 #1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Index))
 #2 /Users/crababy/source/c
 [2018-07-20 12:37:12 $9143.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 09:35:03 *10442.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Application\Apis\Controller\Capsule' not found in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php:25
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Http/Dispatcher.php(30): Application\Apis\Controller\Index->index()
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/HttpEventRegister.php(32): SwooleFm\Core\Http\Dispatcher::dispatc
+[2018-07-23 09:35:03 $10440.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-23 09:35:14 *10448.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Application\Apis\Controller\Db' not found in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Controller/Index.php:25
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Http/Dispatcher.php(30): Application\Apis\Controller\Index->index()
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/HttpEventRegister.php(32): SwooleFm\Core\Http\Dispatcher::dispatch(Obj
+[2018-07-23 09:35:14 $10446.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-23 10:09:27 ^10579.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Function name must be a string in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php:23
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Index->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Index))
+#2 /Users/crababy/source/crababy/swoolefmApp
+[2018-07-23 10:09:27 $10578.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 11:00:08 ^10825.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function Application\Apis\Task\issset() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php:60
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php(19): Application\Apis\Task\Index->collMethod('040025')
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Index->run()
+#2 [internal function]
+[2018-07-23 11:00:08 $10824.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 12:56:15 ^11266.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function Application\Apis\Task\ext_json_decode() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php:46
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php(17): Application\Apis\Task\Index->collFundList()
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Index->run()
+#2 [internal functi
+[2018-07-23 12:56:15 $11265.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 13:16:05 ^11348.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Swoole\Server::tick(): Function 'H^R' is not callable in /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/Timer.php on line 25.
+[2018-07-23 13:16:05 $11347.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 13:22:54 ^11384.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'fund_type' at row 1 in /Users/crababy/source/crababy/swoolefmApp/vendor/illuminate/database/Connection.php:458
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/illuminate/database/Connection.php(458): PDOStatement->execute()
+#1 /Users/crababy/source/crababy/swoolefmApp/vendor/illuminate/database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Databa
+[2018-07-23 13:22:54 $11383.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 13:27:26 ^11390.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 2001 milliseconds with 0 bytes received (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:185
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(Guzzl
+[2018-07-23 13:27:26 $11389.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:09:30 *11658.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class Application\Apis\Task\Index, because the name is already in use in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php on line 39.
+[2018-07-23 15:09:30 $11656.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-23 15:09:30 ^11657.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class Application\Apis\Task\Index, because the name is already in use in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php on line 39.
+[2018-07-23 15:09:30 $11656.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:10:10 ^11664.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on array in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:27
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 1, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/craba
+[2018-07-23 15:10:10 $11663.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:10:50 ^11671.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on array in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:27
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 1, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/craba
+[2018-07-23 15:10:50 $11670.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:23:31 *11812.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 1 passed to Application\Apis\Task\Index::Application\Apis\Task\{closure}() must be of the type integer, null given in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php:51
+Stack trace:
+#0 {main}
+  thrown in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Index.php on line 51.
+[2018-07-23 15:23:31 $11810.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-23 15:31:43 ^11855.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:27
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 2, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/cra
+[2018-07-23 15:31:43 $11854.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:32:52 ^11866.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:27
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/cra
+[2018-07-23 15:32:52 $11865.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:34:57 ^11882.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:28
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/cra
+[2018-07-23 15:34:57 $11881.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:35:23 ^11888.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:28
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/cra
+[2018-07-23 15:35:23 $11887.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:36:10 ^11900.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getAttr() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:29
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/cra
+[2018-07-23 15:36:10 $11899.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:53:36 ^11967.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on array in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:36
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/
+[2018-07-23 15:53:36 $11966.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:55:12 ^11979.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function find() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:33
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/crabab
+[2018-07-23 15:55:12 $11978.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:56:55 ^11997.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function find() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:33
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/crabab
+[2018-07-23 15:56:55 $11996.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 15:57:05 ^12003.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function find() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:33
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/crabab
+[2018-07-23 15:57:05 $12002.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:07:29 ^12076.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method HtmlParser\ParserDom::lastChild() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:33
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crabab
+[2018-07-23 16:07:29 $12075.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:08:47 ^12092.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method HtmlParser\ParserDom::childNodes() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:33
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/craba
+[2018-07-23 16:08:47 $12091.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:14:39 ^12121.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method DOMElement::lastChild() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:34
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/c
+[2018-07-23 16:14:39 $12120.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:35:11 ^12289.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:36
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/sourc
+[2018-07-23 16:35:11 $12288.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:36:35 ^12295.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:34
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/sourc
+[2018-07-23 16:36:35 $12294.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:36:56 ^12301.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on array in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:34
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/source/
+[2018-07-23 16:36:56 $12300.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-23 16:37:10 ^12307.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function getPlainText() on boolean in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Stock.php:34
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Stock->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Stock))
+#2 /Users/crababy/sourc
+[2018-07-23 16:37:10 $12306.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
