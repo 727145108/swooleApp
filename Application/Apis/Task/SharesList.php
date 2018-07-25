@@ -48,7 +48,8 @@ class SharesList extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
               list($code, $info) = explode('=', $item);
               $strArr = explode('_', $code);
               $infoArr = explode(',', substr($info, 1, -2));
-              $fundInfo->fundStock()->updateOrCreate(['fund_id' => $fundInfo->id, 'shares_name' => $infoArr[0]],[
+              $shares_name = str_replace(" ", "", $infoArr[0]);
+              $fundInfo->fundStock()->updateOrCreate(['fund_id' => $fundInfo->id, 'shares_name' => $shares_name],[
                 'shares_code'   => $strArr[2]
               ]);
             }

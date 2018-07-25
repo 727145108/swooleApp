@@ -10056,3 +10056,38 @@ Stack trace:
 [2018-07-23 17:33:06 $12673.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
 [2018-07-23 17:37:47 *12713.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Exception thrown without a stack frame in Unknown on line 0.
 [2018-07-23 17:37:47 $12708.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-07-25 09:37:00 ^14533.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function holds() on null in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:53
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php(50): Application\Apis\Task\Hold->collInfo(Object(Application\Apis\Models\Fund), '2017-12-31')
+#1 /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php(24): Application\Apis\Task\Hold->collInfo(Object(Application\Apis\Mo
+[2018-07-25 09:37:00 $14532.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-25 09:53:31 ^14644.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function Application\Apis\Task\parse_js() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:32
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Hold->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Hold))
+#2 /Users/crababy/
+[2018-07-25 09:53:31 $14643.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-25 10:00:14 ^14674.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Application\Apis\Task\V8Js' not found in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:32
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Hold->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Hold))
+#2 /Users/crababy/source/crababy/
+[2018-07-25 10:00:14 $14673.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-25 10:00:24 ^14683.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'V8Js' not found in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:32
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Hold->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Hold))
+#2 /Users/crababy/source/crababy/swoolefmApp/vendor/cra
+[2018-07-25 10:00:24 $14682.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-25 10:27:11 ^14833.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Cannot use object of type stdClass as array in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:42
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Hold->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Hold))
+#2 /Users/crababy/source/crababy/s
+[2018-07-25 10:27:11 $14832.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-07-25 11:25:58 ^15074.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function Application\Apis\Task\float() in /Users/crababy/source/crababy/swoolefmApp/Application/Apis/Task/Hold.php:40
+Stack trace:
+#0 /Users/crababy/source/crababy/swoolefmApp/vendor/crababy/swoolefm/src/Core/Event/EventRegister.php(117): Application\Apis\Task\Hold->run()
+#1 [internal function]: SwooleFm\Core\Event\EventRegister::onTask(Object(Swoole\Http\Server), 0, 0, Object(Application\Apis\Task\Hold))
+#2 /Users/crababy/sou
+[2018-07-25 11:25:58 $15073.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0

@@ -19,9 +19,11 @@ use GuzzleHttp\Client;
 class Index extends Controller {
 
   public function index() {
-    $task = new \Application\Apis\Task\Index();
-    $task->setData(['symbol' => '000001']);
-    TaskManager::async($task);
+    if(false) {
+      $task = new \Application\Apis\Task\Index();
+      $task->setData(['symbol' => '004066']);
+      TaskManager::async($task);
+    }
 
     /*
 
@@ -34,6 +36,9 @@ class Index extends Controller {
     TaskManager::async($stock);
 
     */
+    $stock = new \Application\Apis\Task\Hold();
+    $stock->setData(['symbol' => '040025']);
+    TaskManager::async($stock);
     throw new \Exception('1231', 2006);
   }
 }

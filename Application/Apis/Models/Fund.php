@@ -35,4 +35,8 @@ class Fund extends Eloquent {
     return $this->hasOne('Application\Apis\Models\FundStock');
   }
 
+  public function holds() {
+    return $this->hasMany('Application\Apis\Models\FundHold');
+  }
+
 }

@@ -40,7 +40,6 @@ class Stock extends \SwooleFm\Core\Task\AbstractInterface\TaskInterface {
                 $cgblname = $row->find('td', 0);
                 $cgbl = $row->find('td', 1);
                 if($cgblname && $cgbl) {
-                  echo $cgblname->getPlainText() . $cgbl->getPlainText() . "\n";
                   $fundInfo->fundStock()->updateOrCreate(['shares_name' => trim($cgblname->getPlainText())],[
                     'shares_code'   => '',
                     'hold_scale'    => floatval($cgbl->getPlainText())
